@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlBufferAllocationScheme',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlBufferAllocationScheme,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_BUFFER_ALLOC_BOUNDED',
 		'XML_BUFFER_ALLOC_DOUBLEIT',
@@ -9,48 +9,46 @@ Class {
 		'XML_BUFFER_ALLOC_IMMUTABLE',
 		'XML_BUFFER_ALLOC_IO'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlBufferAllocationScheme class >> XML_BUFFER_ALLOC_BOUNDED [
 	"This method was automatically generated"
 	^ XML_BUFFER_ALLOC_BOUNDED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlBufferAllocationScheme class >> XML_BUFFER_ALLOC_DOUBLEIT [
 	"This method was automatically generated"
 	^ XML_BUFFER_ALLOC_DOUBLEIT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlBufferAllocationScheme class >> XML_BUFFER_ALLOC_EXACT [
 	"This method was automatically generated"
 	^ XML_BUFFER_ALLOC_EXACT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlBufferAllocationScheme class >> XML_BUFFER_ALLOC_HYBRID [
 	"This method was automatically generated"
 	^ XML_BUFFER_ALLOC_HYBRID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlBufferAllocationScheme class >> XML_BUFFER_ALLOC_IMMUTABLE [
 	"This method was automatically generated"
 	^ XML_BUFFER_ALLOC_IMMUTABLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlBufferAllocationScheme class >> XML_BUFFER_ALLOC_IO [
 	"This method was automatically generated"
 	^ XML_BUFFER_ALLOC_IO
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlBufferAllocationScheme class >> enumDecl [
 
 	^ #(

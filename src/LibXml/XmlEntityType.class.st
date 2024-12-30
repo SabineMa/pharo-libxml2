@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlEntityType',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlEntityType,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_EXTERNAL_GENERAL_PARSED_ENTITY',
 		'XML_EXTERNAL_GENERAL_UNPARSED_ENTITY',
@@ -9,48 +9,46 @@ Class {
 		'XML_INTERNAL_PARAMETER_ENTITY',
 		'XML_INTERNAL_PREDEFINED_ENTITY'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlEntityType class >> XML_EXTERNAL_GENERAL_PARSED_ENTITY [
 	"This method was automatically generated"
 	^ XML_EXTERNAL_GENERAL_PARSED_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlEntityType class >> XML_EXTERNAL_GENERAL_UNPARSED_ENTITY [
 	"This method was automatically generated"
 	^ XML_EXTERNAL_GENERAL_UNPARSED_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlEntityType class >> XML_EXTERNAL_PARAMETER_ENTITY [
 	"This method was automatically generated"
 	^ XML_EXTERNAL_PARAMETER_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlEntityType class >> XML_INTERNAL_GENERAL_ENTITY [
 	"This method was automatically generated"
 	^ XML_INTERNAL_GENERAL_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlEntityType class >> XML_INTERNAL_PARAMETER_ENTITY [
 	"This method was automatically generated"
 	^ XML_INTERNAL_PARAMETER_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlEntityType class >> XML_INTERNAL_PREDEFINED_ENTITY [
 	"This method was automatically generated"
 	^ XML_INTERNAL_PREDEFINED_ENTITY
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlEntityType class >> enumDecl [
 
 	^ #(

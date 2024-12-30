@@ -1,6 +1,6 @@
 Class {
-	#name : 'Xml_xmlSAXHandler',
-	#superclass : 'XmlStructure',
+	#name : #'Xml_xmlSAXHandler',
+	#superclass : #XmlStructure,
 	#classVars : [
 		'OFFSET_ATTRIBUTEDECL',
 		'OFFSET_CDATABLOCK',
@@ -35,12 +35,10 @@ Class {
 		'OFFSET_WARNING',
 		'OFFSET__PRIVATE'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'field definition' }
+{ #category : #'field definition' }
 Xml_xmlSAXHandler class >> fieldsDesc [
 
 	^ #(
@@ -79,25 +77,25 @@ Xml_xmlSAXHandler class >> fieldsDesc [
 	)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> _private [
 	"This method was automatically generated"
 	^ExternalData fromHandle: (handle pointerAt: OFFSET__PRIVATE) type: ExternalType void asPointerType
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> _private: anObject [
 	"This method was automatically generated"
 	handle pointerAt: OFFSET__PRIVATE put: anObject getHandle.
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> attributeDecl [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_ATTRIBUTEDECL) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> attributeDecl: anObject [
 	"This method was automatically generated"
 	handle 
@@ -107,13 +105,13 @@ Xml_xmlSAXHandler >> attributeDecl: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> cdataBlock [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_CDATABLOCK) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> cdataBlock: anObject [
 	"This method was automatically generated"
 	handle 
@@ -123,13 +121,13 @@ Xml_xmlSAXHandler >> cdataBlock: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> characters [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_CHARACTERS) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> characters: anObject [
 	"This method was automatically generated"
 	handle 
@@ -139,13 +137,13 @@ Xml_xmlSAXHandler >> characters: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> comment [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_COMMENT) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> comment: anObject [
 	"This method was automatically generated"
 	handle 
@@ -155,13 +153,13 @@ Xml_xmlSAXHandler >> comment: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> elementDecl [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_ELEMENTDECL) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> elementDecl: anObject [
 	"This method was automatically generated"
 	handle 
@@ -171,13 +169,13 @@ Xml_xmlSAXHandler >> elementDecl: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> endDocument [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_ENDDOCUMENT) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> endDocument: anObject [
 	"This method was automatically generated"
 	handle 
@@ -187,13 +185,13 @@ Xml_xmlSAXHandler >> endDocument: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> endElement [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_ENDELEMENT) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> endElement: anObject [
 	"This method was automatically generated"
 	handle 
@@ -203,13 +201,13 @@ Xml_xmlSAXHandler >> endElement: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> endElementNs [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_ENDELEMENTNS) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> endElementNs: anObject [
 	"This method was automatically generated"
 	handle 
@@ -219,13 +217,13 @@ Xml_xmlSAXHandler >> endElementNs: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> entityDecl [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_ENTITYDECL) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> entityDecl: anObject [
 	"This method was automatically generated"
 	handle 
@@ -235,13 +233,13 @@ Xml_xmlSAXHandler >> entityDecl: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> error [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_ERROR) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> error: anObject [
 	"This method was automatically generated"
 	handle 
@@ -251,13 +249,13 @@ Xml_xmlSAXHandler >> error: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> externalSubset [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_EXTERNALSUBSET) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> externalSubset: anObject [
 	"This method was automatically generated"
 	handle 
@@ -267,13 +265,13 @@ Xml_xmlSAXHandler >> externalSubset: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> fatalError [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_FATALERROR) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> fatalError: anObject [
 	"This method was automatically generated"
 	handle 
@@ -283,13 +281,13 @@ Xml_xmlSAXHandler >> fatalError: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> getEntity [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_GETENTITY) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> getEntity: anObject [
 	"This method was automatically generated"
 	handle 
@@ -299,13 +297,13 @@ Xml_xmlSAXHandler >> getEntity: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> getParameterEntity [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_GETPARAMETERENTITY) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> getParameterEntity: anObject [
 	"This method was automatically generated"
 	handle 
@@ -315,13 +313,13 @@ Xml_xmlSAXHandler >> getParameterEntity: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> hasExternalSubset [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_HASEXTERNALSUBSET) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> hasExternalSubset: anObject [
 	"This method was automatically generated"
 	handle 
@@ -331,13 +329,13 @@ Xml_xmlSAXHandler >> hasExternalSubset: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> hasInternalSubset [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_HASINTERNALSUBSET) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> hasInternalSubset: anObject [
 	"This method was automatically generated"
 	handle 
@@ -347,13 +345,13 @@ Xml_xmlSAXHandler >> hasInternalSubset: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> ignorableWhitespace [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_IGNORABLEWHITESPACE) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> ignorableWhitespace: anObject [
 	"This method was automatically generated"
 	handle 
@@ -363,25 +361,25 @@ Xml_xmlSAXHandler >> ignorableWhitespace: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> initialized [
 	"This method was automatically generated"
 	^handle unsignedLongAt: OFFSET_INITIALIZED
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> initialized: anObject [
 	"This method was automatically generated"
 	handle unsignedLongAt: OFFSET_INITIALIZED put: anObject
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> internalSubset [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_INTERNALSUBSET) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> internalSubset: anObject [
 	"This method was automatically generated"
 	handle 
@@ -391,13 +389,13 @@ Xml_xmlSAXHandler >> internalSubset: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> isStandalone [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_ISSTANDALONE) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> isStandalone: anObject [
 	"This method was automatically generated"
 	handle 
@@ -407,13 +405,13 @@ Xml_xmlSAXHandler >> isStandalone: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> notationDecl [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_NOTATIONDECL) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> notationDecl: anObject [
 	"This method was automatically generated"
 	handle 
@@ -423,13 +421,13 @@ Xml_xmlSAXHandler >> notationDecl: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> processingInstruction [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_PROCESSINGINSTRUCTION) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> processingInstruction: anObject [
 	"This method was automatically generated"
 	handle 
@@ -439,13 +437,13 @@ Xml_xmlSAXHandler >> processingInstruction: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> reference [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_REFERENCE) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> reference: anObject [
 	"This method was automatically generated"
 	handle 
@@ -455,13 +453,13 @@ Xml_xmlSAXHandler >> reference: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> resolveEntity [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_RESOLVEENTITY) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> resolveEntity: anObject [
 	"This method was automatically generated"
 	handle 
@@ -471,13 +469,13 @@ Xml_xmlSAXHandler >> resolveEntity: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> serror [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_SERROR) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> serror: anObject [
 	"This method was automatically generated"
 	handle 
@@ -487,13 +485,13 @@ Xml_xmlSAXHandler >> serror: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> setDocumentLocator [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_SETDOCUMENTLOCATOR) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> setDocumentLocator: anObject [
 	"This method was automatically generated"
 	handle 
@@ -503,13 +501,13 @@ Xml_xmlSAXHandler >> setDocumentLocator: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> startDocument [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_STARTDOCUMENT) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> startDocument: anObject [
 	"This method was automatically generated"
 	handle 
@@ -519,13 +517,13 @@ Xml_xmlSAXHandler >> startDocument: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> startElement [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_STARTELEMENT) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> startElement: anObject [
 	"This method was automatically generated"
 	handle 
@@ -535,13 +533,13 @@ Xml_xmlSAXHandler >> startElement: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> startElementNs [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_STARTELEMENTNS) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> startElementNs: anObject [
 	"This method was automatically generated"
 	handle 
@@ -551,13 +549,13 @@ Xml_xmlSAXHandler >> startElementNs: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> unparsedEntityDecl [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_UNPARSEDENTITYDECL) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> unparsedEntityDecl: anObject [
 	"This method was automatically generated"
 	handle 
@@ -567,13 +565,13 @@ Xml_xmlSAXHandler >> unparsedEntityDecl: anObject [
 			ifNil: [ ExternalAddress null ])
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> warning [
 	"This method was automatically generated"
 	^FFICallback forAddress: ((handle pointerAt: OFFSET_WARNING) asInteger)
 ]
 
-{ #category : 'accessing - structure variables' }
+{ #category : #'accessing - structure variables' }
 Xml_xmlSAXHandler >> warning: anObject [
 	"This method was automatically generated"
 	handle 

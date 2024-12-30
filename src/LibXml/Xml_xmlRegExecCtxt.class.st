@@ -1,12 +1,10 @@
 Class {
-	#name : 'Xml_xmlRegExecCtxt',
-	#superclass : 'XmlBaseObject',
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#name : #'Xml_xmlRegExecCtxt',
+	#superclass : #XmlBaseObject,
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'finalizing' }
+{ #category : #finalizing }
 Xml_xmlRegExecCtxt >> dispose [
 
 	self ffiCall: #(void _xmlRegExecCtxt_dispose(_xmlRegExecCtxt* self))

@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlParserMode',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlParserMode,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_PARSE_DOM',
 		'XML_PARSE_PUSH_DOM',
@@ -9,48 +9,46 @@ Class {
 		'XML_PARSE_SAX',
 		'XML_PARSE_UNKNOWN'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserMode class >> XML_PARSE_DOM [
 	"This method was automatically generated"
 	^ XML_PARSE_DOM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserMode class >> XML_PARSE_PUSH_DOM [
 	"This method was automatically generated"
 	^ XML_PARSE_PUSH_DOM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserMode class >> XML_PARSE_PUSH_SAX [
 	"This method was automatically generated"
 	^ XML_PARSE_PUSH_SAX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserMode class >> XML_PARSE_READER [
 	"This method was automatically generated"
 	^ XML_PARSE_READER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserMode class >> XML_PARSE_SAX [
 	"This method was automatically generated"
 	^ XML_PARSE_SAX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserMode class >> XML_PARSE_UNKNOWN [
 	"This method was automatically generated"
 	^ XML_PARSE_UNKNOWN
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlParserMode class >> enumDecl [
 
 	^ #(

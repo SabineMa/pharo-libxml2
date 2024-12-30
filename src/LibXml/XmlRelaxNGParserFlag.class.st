@@ -1,35 +1,33 @@
 Class {
-	#name : 'XmlRelaxNGParserFlag',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlRelaxNGParserFlag,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_RELAXNGP_CRNG',
 		'XML_RELAXNGP_FREE_DOC',
 		'XML_RELAXNGP_NONE'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGParserFlag class >> XML_RELAXNGP_CRNG [
 	"This method was automatically generated"
 	^ XML_RELAXNGP_CRNG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGParserFlag class >> XML_RELAXNGP_FREE_DOC [
 	"This method was automatically generated"
 	^ XML_RELAXNGP_FREE_DOC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGParserFlag class >> XML_RELAXNGP_NONE [
 	"This method was automatically generated"
 	^ XML_RELAXNGP_NONE
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlRelaxNGParserFlag class >> enumDecl [
 
 	^ #(

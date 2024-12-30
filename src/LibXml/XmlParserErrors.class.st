@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlParserErrors',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlParserErrors,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_BUF_OVERFLOW',
 		'XML_C14N_CREATE_CTXT',
@@ -740,4434 +740,4432 @@ Class {
 		'XML_XPTR_SYNTAX_ERROR',
 		'XML_XPTR_UNKNOWN_SCHEME'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_BUF_OVERFLOW [
 	"This method was automatically generated"
 	^ XML_BUF_OVERFLOW
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_C14N_CREATE_CTXT [
 	"This method was automatically generated"
 	^ XML_C14N_CREATE_CTXT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_C14N_CREATE_STACK [
 	"This method was automatically generated"
 	^ XML_C14N_CREATE_STACK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_C14N_INVALID_NODE [
 	"This method was automatically generated"
 	^ XML_C14N_INVALID_NODE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_C14N_RELATIVE_NAMESPACE [
 	"This method was automatically generated"
 	^ XML_C14N_RELATIVE_NAMESPACE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_C14N_REQUIRES_UTF8 [
 	"This method was automatically generated"
 	^ XML_C14N_REQUIRES_UTF8
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_C14N_UNKNOW_NODE [
 	"This method was automatically generated"
 	^ XML_C14N_UNKNOW_NODE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CATALOG_ENTRY_BROKEN [
 	"This method was automatically generated"
 	^ XML_CATALOG_ENTRY_BROKEN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CATALOG_MISSING_ATTR [
 	"This method was automatically generated"
 	^ XML_CATALOG_MISSING_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CATALOG_NOT_CATALOG [
 	"This method was automatically generated"
 	^ XML_CATALOG_NOT_CATALOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CATALOG_PREFER_VALUE [
 	"This method was automatically generated"
 	^ XML_CATALOG_PREFER_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CATALOG_RECURSION [
 	"This method was automatically generated"
 	^ XML_CATALOG_RECURSION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_ENTITY_TYPE [
 	"This method was automatically generated"
 	^ XML_CHECK_ENTITY_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_ATTRIBUTE [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_ATTRIBUTE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_CDATA [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_CDATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_COMMENT [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_COMMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_DOCTYPE [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_DOCTYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_ELEMENT [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_ELEMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_ENTITY [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_ENTITYREF [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_ENTITYREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_FRAGMENT [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_FRAGMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_NOTATION [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_NOTATION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_PI [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_PI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_FOUND_TEXT [
 	"This method was automatically generated"
 	^ XML_CHECK_FOUND_TEXT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NAME_NOT_NULL [
 	"This method was automatically generated"
 	^ XML_CHECK_NAME_NOT_NULL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NOT_ATTR [
 	"This method was automatically generated"
 	^ XML_CHECK_NOT_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NOT_ATTR_DECL [
 	"This method was automatically generated"
 	^ XML_CHECK_NOT_ATTR_DECL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NOT_DTD [
 	"This method was automatically generated"
 	^ XML_CHECK_NOT_DTD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NOT_ELEM_DECL [
 	"This method was automatically generated"
 	^ XML_CHECK_NOT_ELEM_DECL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NOT_ENTITY_DECL [
 	"This method was automatically generated"
 	^ XML_CHECK_NOT_ENTITY_DECL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NOT_NCNAME [
 	"This method was automatically generated"
 	^ XML_CHECK_NOT_NCNAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NOT_NS_DECL [
 	"This method was automatically generated"
 	^ XML_CHECK_NOT_NS_DECL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NOT_UTF8 [
 	"This method was automatically generated"
 	^ XML_CHECK_NOT_UTF8
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NO_DICT [
 	"This method was automatically generated"
 	^ XML_CHECK_NO_DICT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NO_DOC [
 	"This method was automatically generated"
 	^ XML_CHECK_NO_DOC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NO_ELEM [
 	"This method was automatically generated"
 	^ XML_CHECK_NO_ELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NO_HREF [
 	"This method was automatically generated"
 	^ XML_CHECK_NO_HREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NO_NAME [
 	"This method was automatically generated"
 	^ XML_CHECK_NO_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NO_NEXT [
 	"This method was automatically generated"
 	^ XML_CHECK_NO_NEXT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NO_PARENT [
 	"This method was automatically generated"
 	^ XML_CHECK_NO_PARENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NO_PREV [
 	"This method was automatically generated"
 	^ XML_CHECK_NO_PREV
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NS_ANCESTOR [
 	"This method was automatically generated"
 	^ XML_CHECK_NS_ANCESTOR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_NS_SCOPE [
 	"This method was automatically generated"
 	^ XML_CHECK_NS_SCOPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_OUTSIDE_DICT [
 	"This method was automatically generated"
 	^ XML_CHECK_OUTSIDE_DICT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_UNKNOWN_NODE [
 	"This method was automatically generated"
 	^ XML_CHECK_UNKNOWN_NODE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_WRONG_DOC [
 	"This method was automatically generated"
 	^ XML_CHECK_WRONG_DOC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_WRONG_NAME [
 	"This method was automatically generated"
 	^ XML_CHECK_WRONG_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_WRONG_NEXT [
 	"This method was automatically generated"
 	^ XML_CHECK_WRONG_NEXT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_WRONG_PARENT [
 	"This method was automatically generated"
 	^ XML_CHECK_WRONG_PARENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_CHECK_WRONG_PREV [
 	"This method was automatically generated"
 	^ XML_CHECK_WRONG_PREV
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ATTRIBUTE_DEFAULT [
 	"This method was automatically generated"
 	^ XML_DTD_ATTRIBUTE_DEFAULT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ATTRIBUTE_REDEFINED [
 	"This method was automatically generated"
 	^ XML_DTD_ATTRIBUTE_REDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ATTRIBUTE_VALUE [
 	"This method was automatically generated"
 	^ XML_DTD_ATTRIBUTE_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_CONTENT_ERROR [
 	"This method was automatically generated"
 	^ XML_DTD_CONTENT_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_CONTENT_MODEL [
 	"This method was automatically generated"
 	^ XML_DTD_CONTENT_MODEL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_CONTENT_NOT_DETERMINIST [
 	"This method was automatically generated"
 	^ XML_DTD_CONTENT_NOT_DETERMINIST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_DIFFERENT_PREFIX [
 	"This method was automatically generated"
 	^ XML_DTD_DIFFERENT_PREFIX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_DUP_TOKEN [
 	"This method was automatically generated"
 	^ XML_DTD_DUP_TOKEN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ELEM_DEFAULT_NAMESPACE [
 	"This method was automatically generated"
 	^ XML_DTD_ELEM_DEFAULT_NAMESPACE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ELEM_NAMESPACE [
 	"This method was automatically generated"
 	^ XML_DTD_ELEM_NAMESPACE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ELEM_REDEFINED [
 	"This method was automatically generated"
 	^ XML_DTD_ELEM_REDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_EMPTY_NOTATION [
 	"This method was automatically generated"
 	^ XML_DTD_EMPTY_NOTATION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ENTITY_TYPE [
 	"This method was automatically generated"
 	^ XML_DTD_ENTITY_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ID_FIXED [
 	"This method was automatically generated"
 	^ XML_DTD_ID_FIXED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ID_REDEFINED [
 	"This method was automatically generated"
 	^ XML_DTD_ID_REDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ID_SUBSET [
 	"This method was automatically generated"
 	^ XML_DTD_ID_SUBSET
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_INVALID_CHILD [
 	"This method was automatically generated"
 	^ XML_DTD_INVALID_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_INVALID_DEFAULT [
 	"This method was automatically generated"
 	^ XML_DTD_INVALID_DEFAULT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_LOAD_ERROR [
 	"This method was automatically generated"
 	^ XML_DTD_LOAD_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_MISSING_ATTRIBUTE [
 	"This method was automatically generated"
 	^ XML_DTD_MISSING_ATTRIBUTE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_MIXED_CORRUPT [
 	"This method was automatically generated"
 	^ XML_DTD_MIXED_CORRUPT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_MULTIPLE_ID [
 	"This method was automatically generated"
 	^ XML_DTD_MULTIPLE_ID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NOTATION_REDEFINED [
 	"This method was automatically generated"
 	^ XML_DTD_NOTATION_REDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NOTATION_VALUE [
 	"This method was automatically generated"
 	^ XML_DTD_NOTATION_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NOT_EMPTY [
 	"This method was automatically generated"
 	^ XML_DTD_NOT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NOT_PCDATA [
 	"This method was automatically generated"
 	^ XML_DTD_NOT_PCDATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NOT_STANDALONE [
 	"This method was automatically generated"
 	^ XML_DTD_NOT_STANDALONE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NO_DOC [
 	"This method was automatically generated"
 	^ XML_DTD_NO_DOC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NO_DTD [
 	"This method was automatically generated"
 	^ XML_DTD_NO_DTD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NO_ELEM_NAME [
 	"This method was automatically generated"
 	^ XML_DTD_NO_ELEM_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NO_PREFIX [
 	"This method was automatically generated"
 	^ XML_DTD_NO_PREFIX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_NO_ROOT [
 	"This method was automatically generated"
 	^ XML_DTD_NO_ROOT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_ROOT_NAME [
 	"This method was automatically generated"
 	^ XML_DTD_ROOT_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_STANDALONE_DEFAULTED [
 	"This method was automatically generated"
 	^ XML_DTD_STANDALONE_DEFAULTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_STANDALONE_WHITE_SPACE [
 	"This method was automatically generated"
 	^ XML_DTD_STANDALONE_WHITE_SPACE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_UNKNOWN_ATTRIBUTE [
 	"This method was automatically generated"
 	^ XML_DTD_UNKNOWN_ATTRIBUTE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_UNKNOWN_ELEM [
 	"This method was automatically generated"
 	^ XML_DTD_UNKNOWN_ELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_UNKNOWN_ENTITY [
 	"This method was automatically generated"
 	^ XML_DTD_UNKNOWN_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_UNKNOWN_ID [
 	"This method was automatically generated"
 	^ XML_DTD_UNKNOWN_ID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_UNKNOWN_NOTATION [
 	"This method was automatically generated"
 	^ XML_DTD_UNKNOWN_NOTATION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_XMLID_TYPE [
 	"This method was automatically generated"
 	^ XML_DTD_XMLID_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_DTD_XMLID_VALUE [
 	"This method was automatically generated"
 	^ XML_DTD_XMLID_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ATTLIST_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_ATTLIST_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ATTLIST_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_ATTLIST_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ATTRIBUTE_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_ATTRIBUTE_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ATTRIBUTE_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_ATTRIBUTE_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ATTRIBUTE_REDEFINED [
 	"This method was automatically generated"
 	^ XML_ERR_ATTRIBUTE_REDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ATTRIBUTE_WITHOUT_VALUE [
 	"This method was automatically generated"
 	^ XML_ERR_ATTRIBUTE_WITHOUT_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CDATA_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_CDATA_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CHARREF_AT_EOF [
 	"This method was automatically generated"
 	^ XML_ERR_CHARREF_AT_EOF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CHARREF_IN_DTD [
 	"This method was automatically generated"
 	^ XML_ERR_CHARREF_IN_DTD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CHARREF_IN_EPILOG [
 	"This method was automatically generated"
 	^ XML_ERR_CHARREF_IN_EPILOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CHARREF_IN_PROLOG [
 	"This method was automatically generated"
 	^ XML_ERR_CHARREF_IN_PROLOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_COMMENT_ABRUPTLY_ENDED [
 	"This method was automatically generated"
 	^ XML_ERR_COMMENT_ABRUPTLY_ENDED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_COMMENT_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_COMMENT_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CONDSEC_INVALID [
 	"This method was automatically generated"
 	^ XML_ERR_CONDSEC_INVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CONDSEC_INVALID_KEYWORD [
 	"This method was automatically generated"
 	^ XML_ERR_CONDSEC_INVALID_KEYWORD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CONDSEC_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_CONDSEC_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_CONDSEC_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_CONDSEC_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_DOCTYPE_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_DOCTYPE_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_DOCUMENT_EMPTY [
 	"This method was automatically generated"
 	^ XML_ERR_DOCUMENT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_DOCUMENT_END [
 	"This method was automatically generated"
 	^ XML_ERR_DOCUMENT_END
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_DOCUMENT_START [
 	"This method was automatically generated"
 	^ XML_ERR_DOCUMENT_START
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ELEMCONTENT_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_ELEMCONTENT_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ELEMCONTENT_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_ELEMCONTENT_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENCODING_NAME [
 	"This method was automatically generated"
 	^ XML_ERR_ENCODING_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITYREF_AT_EOF [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITYREF_AT_EOF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITYREF_IN_DTD [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITYREF_IN_DTD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITYREF_IN_EPILOG [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITYREF_IN_EPILOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITYREF_IN_PROLOG [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITYREF_IN_PROLOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITYREF_NO_NAME [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITYREF_NO_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITYREF_SEMICOL_MISSING [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITYREF_SEMICOL_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_BOUNDARY [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_BOUNDARY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_CHAR_ERROR [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_CHAR_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_IS_EXTERNAL [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_IS_EXTERNAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_IS_PARAMETER [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_IS_PARAMETER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_LOOP [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_LOOP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_PE_INTERNAL [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_PE_INTERNAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_ENTITY_PROCESSING [
 	"This method was automatically generated"
 	^ XML_ERR_ENTITY_PROCESSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_EQUAL_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_EQUAL_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_EXTRA_CONTENT [
 	"This method was automatically generated"
 	^ XML_ERR_EXTRA_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_EXT_ENTITY_STANDALONE [
 	"This method was automatically generated"
 	^ XML_ERR_EXT_ENTITY_STANDALONE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_EXT_SUBSET_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_EXT_SUBSET_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_GT_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_GT_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_HYPHEN_IN_COMMENT [
 	"This method was automatically generated"
 	^ XML_ERR_HYPHEN_IN_COMMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_INTERNAL_ERROR [
 	"This method was automatically generated"
 	^ XML_ERR_INTERNAL_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_INVALID_CHAR [
 	"This method was automatically generated"
 	^ XML_ERR_INVALID_CHAR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_INVALID_CHARREF [
 	"This method was automatically generated"
 	^ XML_ERR_INVALID_CHARREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_INVALID_DEC_CHARREF [
 	"This method was automatically generated"
 	^ XML_ERR_INVALID_DEC_CHARREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_INVALID_ENCODING [
 	"This method was automatically generated"
 	^ XML_ERR_INVALID_ENCODING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_INVALID_HEX_CHARREF [
 	"This method was automatically generated"
 	^ XML_ERR_INVALID_HEX_CHARREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_INVALID_URI [
 	"This method was automatically generated"
 	^ XML_ERR_INVALID_URI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_LITERAL_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_LITERAL_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_LITERAL_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_LITERAL_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_LTSLASH_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_LTSLASH_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_LT_IN_ATTRIBUTE [
 	"This method was automatically generated"
 	^ XML_ERR_LT_IN_ATTRIBUTE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_LT_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_LT_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_MISPLACED_CDATA_END [
 	"This method was automatically generated"
 	^ XML_ERR_MISPLACED_CDATA_END
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_MISSING_ENCODING [
 	"This method was automatically generated"
 	^ XML_ERR_MISSING_ENCODING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_MIXED_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_MIXED_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_MIXED_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_MIXED_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NAME_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_NAME_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NAME_TOO_LONG [
 	"This method was automatically generated"
 	^ XML_ERR_NAME_TOO_LONG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NMTOKEN_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_NMTOKEN_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NOTATION_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_NOTATION_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NOTATION_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_NOTATION_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NOTATION_PROCESSING [
 	"This method was automatically generated"
 	^ XML_ERR_NOTATION_PROCESSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NOT_STANDALONE [
 	"This method was automatically generated"
 	^ XML_ERR_NOT_STANDALONE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NOT_WELL_BALANCED [
 	"This method was automatically generated"
 	^ XML_ERR_NOT_WELL_BALANCED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NO_DTD [
 	"This method was automatically generated"
 	^ XML_ERR_NO_DTD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NO_MEMORY [
 	"This method was automatically generated"
 	^ XML_ERR_NO_MEMORY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_NS_DECL_ERROR [
 	"This method was automatically generated"
 	^ XML_ERR_NS_DECL_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_OK [
 	"This method was automatically generated"
 	^ XML_ERR_OK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PCDATA_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_PCDATA_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PEREF_AT_EOF [
 	"This method was automatically generated"
 	^ XML_ERR_PEREF_AT_EOF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PEREF_IN_EPILOG [
 	"This method was automatically generated"
 	^ XML_ERR_PEREF_IN_EPILOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PEREF_IN_INT_SUBSET [
 	"This method was automatically generated"
 	^ XML_ERR_PEREF_IN_INT_SUBSET
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PEREF_IN_PROLOG [
 	"This method was automatically generated"
 	^ XML_ERR_PEREF_IN_PROLOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PEREF_NO_NAME [
 	"This method was automatically generated"
 	^ XML_ERR_PEREF_NO_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PEREF_SEMICOL_MISSING [
 	"This method was automatically generated"
 	^ XML_ERR_PEREF_SEMICOL_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PI_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_PI_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PI_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_PI_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_PUBID_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_PUBID_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_RESERVED_XML_NAME [
 	"This method was automatically generated"
 	^ XML_ERR_RESERVED_XML_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_SEPARATOR_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_SEPARATOR_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_SPACE_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_SPACE_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_STANDALONE_VALUE [
 	"This method was automatically generated"
 	^ XML_ERR_STANDALONE_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_STRING_NOT_CLOSED [
 	"This method was automatically generated"
 	^ XML_ERR_STRING_NOT_CLOSED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_STRING_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_STRING_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_TAG_NAME_MISMATCH [
 	"This method was automatically generated"
 	^ XML_ERR_TAG_NAME_MISMATCH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_TAG_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_TAG_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_UNDECLARED_ENTITY [
 	"This method was automatically generated"
 	^ XML_ERR_UNDECLARED_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_UNKNOWN_ENCODING [
 	"This method was automatically generated"
 	^ XML_ERR_UNKNOWN_ENCODING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_UNKNOWN_VERSION [
 	"This method was automatically generated"
 	^ XML_ERR_UNKNOWN_VERSION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_UNPARSED_ENTITY [
 	"This method was automatically generated"
 	^ XML_ERR_UNPARSED_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_UNSUPPORTED_ENCODING [
 	"This method was automatically generated"
 	^ XML_ERR_UNSUPPORTED_ENCODING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_URI_FRAGMENT [
 	"This method was automatically generated"
 	^ XML_ERR_URI_FRAGMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_URI_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_URI_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_USER_STOP [
 	"This method was automatically generated"
 	^ XML_ERR_USER_STOP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_VALUE_REQUIRED [
 	"This method was automatically generated"
 	^ XML_ERR_VALUE_REQUIRED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_VERSION_MISMATCH [
 	"This method was automatically generated"
 	^ XML_ERR_VERSION_MISMATCH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_VERSION_MISSING [
 	"This method was automatically generated"
 	^ XML_ERR_VERSION_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_XMLDECL_NOT_FINISHED [
 	"This method was automatically generated"
 	^ XML_ERR_XMLDECL_NOT_FINISHED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_ERR_XMLDECL_NOT_STARTED [
 	"This method was automatically generated"
 	^ XML_ERR_XMLDECL_NOT_STARTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_FTP_ACCNT [
 	"This method was automatically generated"
 	^ XML_FTP_ACCNT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_FTP_EPSV_ANSWER [
 	"This method was automatically generated"
 	^ XML_FTP_EPSV_ANSWER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_FTP_PASV_ANSWER [
 	"This method was automatically generated"
 	^ XML_FTP_PASV_ANSWER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_FTP_URL_SYNTAX [
 	"This method was automatically generated"
 	^ XML_FTP_URL_SYNTAX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_HTML_INCORRECTLY_OPENED_COMMENT [
 	"This method was automatically generated"
 	^ XML_HTML_INCORRECTLY_OPENED_COMMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_HTML_STRUCURE_ERROR [
 	"This method was automatically generated"
 	^ XML_HTML_STRUCURE_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_HTML_UNKNOWN_TAG [
 	"This method was automatically generated"
 	^ XML_HTML_UNKNOWN_TAG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_HTTP_UNKNOWN_HOST [
 	"This method was automatically generated"
 	^ XML_HTTP_UNKNOWN_HOST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_HTTP_URL_SYNTAX [
 	"This method was automatically generated"
 	^ XML_HTTP_URL_SYNTAX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_HTTP_USE_IP [
 	"This method was automatically generated"
 	^ XML_HTTP_USE_IP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_I18N_CONV_FAILED [
 	"This method was automatically generated"
 	^ XML_I18N_CONV_FAILED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_I18N_EXCESS_HANDLER [
 	"This method was automatically generated"
 	^ XML_I18N_EXCESS_HANDLER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_I18N_NO_HANDLER [
 	"This method was automatically generated"
 	^ XML_I18N_NO_HANDLER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_I18N_NO_NAME [
 	"This method was automatically generated"
 	^ XML_I18N_NO_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_I18N_NO_OUTPUT [
 	"This method was automatically generated"
 	^ XML_I18N_NO_OUTPUT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_BUFFER_FULL [
 	"This method was automatically generated"
 	^ XML_IO_BUFFER_FULL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EACCES [
 	"This method was automatically generated"
 	^ XML_IO_EACCES
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EADDRINUSE [
 	"This method was automatically generated"
 	^ XML_IO_EADDRINUSE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EAFNOSUPPORT [
 	"This method was automatically generated"
 	^ XML_IO_EAFNOSUPPORT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EAGAIN [
 	"This method was automatically generated"
 	^ XML_IO_EAGAIN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EALREADY [
 	"This method was automatically generated"
 	^ XML_IO_EALREADY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EBADF [
 	"This method was automatically generated"
 	^ XML_IO_EBADF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EBADMSG [
 	"This method was automatically generated"
 	^ XML_IO_EBADMSG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EBUSY [
 	"This method was automatically generated"
 	^ XML_IO_EBUSY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ECANCELED [
 	"This method was automatically generated"
 	^ XML_IO_ECANCELED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ECHILD [
 	"This method was automatically generated"
 	^ XML_IO_ECHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ECONNREFUSED [
 	"This method was automatically generated"
 	^ XML_IO_ECONNREFUSED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EDEADLK [
 	"This method was automatically generated"
 	^ XML_IO_EDEADLK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EDOM [
 	"This method was automatically generated"
 	^ XML_IO_EDOM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EEXIST [
 	"This method was automatically generated"
 	^ XML_IO_EEXIST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EFAULT [
 	"This method was automatically generated"
 	^ XML_IO_EFAULT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EFBIG [
 	"This method was automatically generated"
 	^ XML_IO_EFBIG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EINPROGRESS [
 	"This method was automatically generated"
 	^ XML_IO_EINPROGRESS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EINTR [
 	"This method was automatically generated"
 	^ XML_IO_EINTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EINVAL [
 	"This method was automatically generated"
 	^ XML_IO_EINVAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EIO [
 	"This method was automatically generated"
 	^ XML_IO_EIO
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EISCONN [
 	"This method was automatically generated"
 	^ XML_IO_EISCONN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EISDIR [
 	"This method was automatically generated"
 	^ XML_IO_EISDIR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EMFILE [
 	"This method was automatically generated"
 	^ XML_IO_EMFILE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EMLINK [
 	"This method was automatically generated"
 	^ XML_IO_EMLINK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EMSGSIZE [
 	"This method was automatically generated"
 	^ XML_IO_EMSGSIZE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENAMETOOLONG [
 	"This method was automatically generated"
 	^ XML_IO_ENAMETOOLONG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENCODER [
 	"This method was automatically generated"
 	^ XML_IO_ENCODER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENETUNREACH [
 	"This method was automatically generated"
 	^ XML_IO_ENETUNREACH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENFILE [
 	"This method was automatically generated"
 	^ XML_IO_ENFILE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENODEV [
 	"This method was automatically generated"
 	^ XML_IO_ENODEV
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOENT [
 	"This method was automatically generated"
 	^ XML_IO_ENOENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOEXEC [
 	"This method was automatically generated"
 	^ XML_IO_ENOEXEC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOLCK [
 	"This method was automatically generated"
 	^ XML_IO_ENOLCK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOMEM [
 	"This method was automatically generated"
 	^ XML_IO_ENOMEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOSPC [
 	"This method was automatically generated"
 	^ XML_IO_ENOSPC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOSYS [
 	"This method was automatically generated"
 	^ XML_IO_ENOSYS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOTDIR [
 	"This method was automatically generated"
 	^ XML_IO_ENOTDIR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOTEMPTY [
 	"This method was automatically generated"
 	^ XML_IO_ENOTEMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOTSOCK [
 	"This method was automatically generated"
 	^ XML_IO_ENOTSOCK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOTSUP [
 	"This method was automatically generated"
 	^ XML_IO_ENOTSUP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENOTTY [
 	"This method was automatically generated"
 	^ XML_IO_ENOTTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ENXIO [
 	"This method was automatically generated"
 	^ XML_IO_ENXIO
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EPERM [
 	"This method was automatically generated"
 	^ XML_IO_EPERM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EPIPE [
 	"This method was automatically generated"
 	^ XML_IO_EPIPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ERANGE [
 	"This method was automatically generated"
 	^ XML_IO_ERANGE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EROFS [
 	"This method was automatically generated"
 	^ XML_IO_EROFS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ESPIPE [
 	"This method was automatically generated"
 	^ XML_IO_ESPIPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ESRCH [
 	"This method was automatically generated"
 	^ XML_IO_ESRCH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_ETIMEDOUT [
 	"This method was automatically generated"
 	^ XML_IO_ETIMEDOUT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_EXDEV [
 	"This method was automatically generated"
 	^ XML_IO_EXDEV
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_FLUSH [
 	"This method was automatically generated"
 	^ XML_IO_FLUSH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_LOAD_ERROR [
 	"This method was automatically generated"
 	^ XML_IO_LOAD_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_NETWORK_ATTEMPT [
 	"This method was automatically generated"
 	^ XML_IO_NETWORK_ATTEMPT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_NO_INPUT [
 	"This method was automatically generated"
 	^ XML_IO_NO_INPUT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_UNKNOWN [
 	"This method was automatically generated"
 	^ XML_IO_UNKNOWN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_IO_WRITE [
 	"This method was automatically generated"
 	^ XML_IO_WRITE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_MODULE_CLOSE [
 	"This method was automatically generated"
 	^ XML_MODULE_CLOSE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_MODULE_OPEN [
 	"This method was automatically generated"
 	^ XML_MODULE_OPEN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_NS_ERR_ATTRIBUTE_REDEFINED [
 	"This method was automatically generated"
 	^ XML_NS_ERR_ATTRIBUTE_REDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_NS_ERR_COLON [
 	"This method was automatically generated"
 	^ XML_NS_ERR_COLON
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_NS_ERR_EMPTY [
 	"This method was automatically generated"
 	^ XML_NS_ERR_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_NS_ERR_QNAME [
 	"This method was automatically generated"
 	^ XML_NS_ERR_QNAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_NS_ERR_UNDEFINED_NAMESPACE [
 	"This method was automatically generated"
 	^ XML_NS_ERR_UNDEFINED_NAMESPACE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_NS_ERR_XML_NAMESPACE [
 	"This method was automatically generated"
 	^ XML_NS_ERR_XML_NAMESPACE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_REGEXP_COMPILE_ERROR [
 	"This method was automatically generated"
 	^ XML_REGEXP_COMPILE_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ANYNAME_ATTR_ANCESTOR [
 	"This method was automatically generated"
 	^ XML_RNGP_ANYNAME_ATTR_ANCESTOR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ATTRIBUTE_CHILDREN [
 	"This method was automatically generated"
 	^ XML_RNGP_ATTRIBUTE_CHILDREN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ATTRIBUTE_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_ATTRIBUTE_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ATTRIBUTE_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_ATTRIBUTE_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ATTRIBUTE_NOOP [
 	"This method was automatically generated"
 	^ XML_RNGP_ATTRIBUTE_NOOP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ATTR_CONFLICT [
 	"This method was automatically generated"
 	^ XML_RNGP_ATTR_CONFLICT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_CHOICE_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_CHOICE_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_CHOICE_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_CHOICE_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_CREATE_FAILURE [
 	"This method was automatically generated"
 	^ XML_RNGP_CREATE_FAILURE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_DATA_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_DATA_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_DEFINE_CREATE_FAILED [
 	"This method was automatically generated"
 	^ XML_RNGP_DEFINE_CREATE_FAILED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_DEFINE_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_DEFINE_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_DEFINE_MISSING [
 	"This method was automatically generated"
 	^ XML_RNGP_DEFINE_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_DEFINE_NAME_MISSING [
 	"This method was automatically generated"
 	^ XML_RNGP_DEFINE_NAME_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_DEF_CHOICE_AND_INTERLEAVE [
 	"This method was automatically generated"
 	^ XML_RNGP_DEF_CHOICE_AND_INTERLEAVE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ELEMENT_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_ELEMENT_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ELEMENT_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_ELEMENT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ELEMENT_NAME [
 	"This method was automatically generated"
 	^ XML_RNGP_ELEMENT_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ELEMENT_NO_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_ELEMENT_NO_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ELEM_CONTENT_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_ELEM_CONTENT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ELEM_CONTENT_ERROR [
 	"This method was automatically generated"
 	^ XML_RNGP_ELEM_CONTENT_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ELEM_TEXT_CONFLICT [
 	"This method was automatically generated"
 	^ XML_RNGP_ELEM_TEXT_CONFLICT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EMPTY_CONSTRUCT [
 	"This method was automatically generated"
 	^ XML_RNGP_EMPTY_CONSTRUCT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EMPTY_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_EMPTY_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EMPTY_NOT_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_EMPTY_NOT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_ERROR_TYPE_LIB [
 	"This method was automatically generated"
 	^ XML_RNGP_ERROR_TYPE_LIB
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EXCEPT_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_EXCEPT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EXCEPT_MISSING [
 	"This method was automatically generated"
 	^ XML_RNGP_EXCEPT_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EXCEPT_MULTIPLE [
 	"This method was automatically generated"
 	^ XML_RNGP_EXCEPT_MULTIPLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EXCEPT_NO_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_EXCEPT_NO_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EXTERNALREF_EMTPY [
 	"This method was automatically generated"
 	^ XML_RNGP_EXTERNALREF_EMTPY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EXTERNALREF_RECURSE [
 	"This method was automatically generated"
 	^ XML_RNGP_EXTERNALREF_RECURSE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_EXTERNAL_REF_FAILURE [
 	"This method was automatically generated"
 	^ XML_RNGP_EXTERNAL_REF_FAILURE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_FORBIDDEN_ATTRIBUTE [
 	"This method was automatically generated"
 	^ XML_RNGP_FORBIDDEN_ATTRIBUTE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_FOREIGN_ELEMENT [
 	"This method was automatically generated"
 	^ XML_RNGP_FOREIGN_ELEMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_GRAMMAR_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_GRAMMAR_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_GRAMMAR_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_GRAMMAR_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_GRAMMAR_MISSING [
 	"This method was automatically generated"
 	^ XML_RNGP_GRAMMAR_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_GRAMMAR_NO_START [
 	"This method was automatically generated"
 	^ XML_RNGP_GRAMMAR_NO_START
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_GROUP_ATTR_CONFLICT [
 	"This method was automatically generated"
 	^ XML_RNGP_GROUP_ATTR_CONFLICT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_HREF_ERROR [
 	"This method was automatically generated"
 	^ XML_RNGP_HREF_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INCLUDE_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_INCLUDE_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INCLUDE_FAILURE [
 	"This method was automatically generated"
 	^ XML_RNGP_INCLUDE_FAILURE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INCLUDE_RECURSE [
 	"This method was automatically generated"
 	^ XML_RNGP_INCLUDE_RECURSE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INTERLEAVE_ADD [
 	"This method was automatically generated"
 	^ XML_RNGP_INTERLEAVE_ADD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INTERLEAVE_CREATE_FAILED [
 	"This method was automatically generated"
 	^ XML_RNGP_INTERLEAVE_CREATE_FAILED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INTERLEAVE_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_INTERLEAVE_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INTERLEAVE_NO_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_INTERLEAVE_NO_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INVALID_DEFINE_NAME [
 	"This method was automatically generated"
 	^ XML_RNGP_INVALID_DEFINE_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INVALID_URI [
 	"This method was automatically generated"
 	^ XML_RNGP_INVALID_URI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_INVALID_VALUE [
 	"This method was automatically generated"
 	^ XML_RNGP_INVALID_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_MISSING_HREF [
 	"This method was automatically generated"
 	^ XML_RNGP_MISSING_HREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_NAME_MISSING [
 	"This method was automatically generated"
 	^ XML_RNGP_NAME_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_NEED_COMBINE [
 	"This method was automatically generated"
 	^ XML_RNGP_NEED_COMBINE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_NOTALLOWED_NOT_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_NOTALLOWED_NOT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_NSNAME_ATTR_ANCESTOR [
 	"This method was automatically generated"
 	^ XML_RNGP_NSNAME_ATTR_ANCESTOR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_NSNAME_NO_NS [
 	"This method was automatically generated"
 	^ XML_RNGP_NSNAME_NO_NS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PARAM_FORBIDDEN [
 	"This method was automatically generated"
 	^ XML_RNGP_PARAM_FORBIDDEN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PARAM_NAME_MISSING [
 	"This method was automatically generated"
 	^ XML_RNGP_PARAM_NAME_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PARENTREF_CREATE_FAILED [
 	"This method was automatically generated"
 	^ XML_RNGP_PARENTREF_CREATE_FAILED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PARENTREF_NAME_INVALID [
 	"This method was automatically generated"
 	^ XML_RNGP_PARENTREF_NAME_INVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PARENTREF_NOT_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_PARENTREF_NOT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PARENTREF_NO_NAME [
 	"This method was automatically generated"
 	^ XML_RNGP_PARENTREF_NO_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PARENTREF_NO_PARENT [
 	"This method was automatically generated"
 	^ XML_RNGP_PARENTREF_NO_PARENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PARSE_ERROR [
 	"This method was automatically generated"
 	^ XML_RNGP_PARSE_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_ANYNAME_EXCEPT_ANYNAME [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_ANYNAME_EXCEPT_ANYNAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_ATTR_ATTR [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_ATTR_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_ATTR_ELEM [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_ATTR_ELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_ATTR [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_ELEM [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_ELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_GROUP [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_GROUP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_INTERLEAVE [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_INTERLEAVE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_LIST [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_LIST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_ONEMORE [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_ONEMORE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_REF [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_REF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_DATA_EXCEPT_TEXT [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_DATA_EXCEPT_TEXT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_LIST_ATTR [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_LIST_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_LIST_ELEM [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_LIST_ELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_LIST_INTERLEAVE [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_LIST_INTERLEAVE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_LIST_LIST [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_LIST_LIST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_LIST_REF [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_LIST_REF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_LIST_TEXT [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_LIST_TEXT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_NSNAME_EXCEPT_ANYNAME [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_NSNAME_EXCEPT_ANYNAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_NSNAME_EXCEPT_NSNAME [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_NSNAME_EXCEPT_NSNAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_ONEMORE_GROUP_ATTR [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_ONEMORE_GROUP_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_ONEMORE_INTERLEAVE_ATTR [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_ONEMORE_INTERLEAVE_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_ATTR [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_DATA [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_DATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_GROUP [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_GROUP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_INTERLEAVE [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_INTERLEAVE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_LIST [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_LIST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_ONEMORE [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_ONEMORE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_TEXT [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_TEXT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PAT_START_VALUE [
 	"This method was automatically generated"
 	^ XML_RNGP_PAT_START_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_PREFIX_UNDEFINED [
 	"This method was automatically generated"
 	^ XML_RNGP_PREFIX_UNDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_REF_CREATE_FAILED [
 	"This method was automatically generated"
 	^ XML_RNGP_REF_CREATE_FAILED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_REF_CYCLE [
 	"This method was automatically generated"
 	^ XML_RNGP_REF_CYCLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_REF_NAME_INVALID [
 	"This method was automatically generated"
 	^ XML_RNGP_REF_NAME_INVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_REF_NOT_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_REF_NOT_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_REF_NO_DEF [
 	"This method was automatically generated"
 	^ XML_RNGP_REF_NO_DEF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_REF_NO_NAME [
 	"This method was automatically generated"
 	^ XML_RNGP_REF_NO_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_START_CHOICE_AND_INTERLEAVE [
 	"This method was automatically generated"
 	^ XML_RNGP_START_CHOICE_AND_INTERLEAVE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_START_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_START_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_START_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_START_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_START_MISSING [
 	"This method was automatically generated"
 	^ XML_RNGP_START_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_TEXT_EXPECTED [
 	"This method was automatically generated"
 	^ XML_RNGP_TEXT_EXPECTED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_TEXT_HAS_CHILD [
 	"This method was automatically generated"
 	^ XML_RNGP_TEXT_HAS_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_TYPE_MISSING [
 	"This method was automatically generated"
 	^ XML_RNGP_TYPE_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_TYPE_NOT_FOUND [
 	"This method was automatically generated"
 	^ XML_RNGP_TYPE_NOT_FOUND
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_TYPE_VALUE [
 	"This method was automatically generated"
 	^ XML_RNGP_TYPE_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_UNKNOWN_ATTRIBUTE [
 	"This method was automatically generated"
 	^ XML_RNGP_UNKNOWN_ATTRIBUTE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_UNKNOWN_COMBINE [
 	"This method was automatically generated"
 	^ XML_RNGP_UNKNOWN_COMBINE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_UNKNOWN_CONSTRUCT [
 	"This method was automatically generated"
 	^ XML_RNGP_UNKNOWN_CONSTRUCT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_UNKNOWN_TYPE_LIB [
 	"This method was automatically generated"
 	^ XML_RNGP_UNKNOWN_TYPE_LIB
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_URI_FRAGMENT [
 	"This method was automatically generated"
 	^ XML_RNGP_URI_FRAGMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_URI_NOT_ABSOLUTE [
 	"This method was automatically generated"
 	^ XML_RNGP_URI_NOT_ABSOLUTE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_VALUE_EMPTY [
 	"This method was automatically generated"
 	^ XML_RNGP_VALUE_EMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_VALUE_NO_CONTENT [
 	"This method was automatically generated"
 	^ XML_RNGP_VALUE_NO_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_XMLNS_NAME [
 	"This method was automatically generated"
 	^ XML_RNGP_XMLNS_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_RNGP_XML_NS [
 	"This method was automatically generated"
 	^ XML_RNGP_XML_NS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SAVE_CHAR_INVALID [
 	"This method was automatically generated"
 	^ XML_SAVE_CHAR_INVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SAVE_NOT_UTF8 [
 	"This method was automatically generated"
 	^ XML_SAVE_NOT_UTF8
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SAVE_NO_DOCTYPE [
 	"This method was automatically generated"
 	^ XML_SAVE_NO_DOCTYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SAVE_UNKNOWN_ENCODING [
 	"This method was automatically generated"
 	^ XML_SAVE_UNKNOWN_ENCODING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_AG_PROPS_CORRECT [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_AG_PROPS_CORRECT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ATTRFORMDEFAULT_VALUE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ATTRFORMDEFAULT_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ATTRGRP_NONAME_NOREF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ATTRGRP_NONAME_NOREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ATTR_NONAME_NOREF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ATTR_NONAME_NOREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_AU_PROPS_CORRECT [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_AU_PROPS_CORRECT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_AU_PROPS_CORRECT_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_AU_PROPS_CORRECT_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_A_PROPS_CORRECT_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_A_PROPS_CORRECT_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_A_PROPS_CORRECT_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_A_PROPS_CORRECT_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COMPLEXTYPE_NONAME_NOREF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COMPLEXTYPE_NONAME_NOREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ALL_LIMITED [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ALL_LIMITED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_CT_EXTENDS_1_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_CT_EXTENDS_1_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_CT_EXTENDS_1_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_CT_EXTENDS_1_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_CT_EXTENDS_1_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_CT_EXTENDS_1_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_DERIVED_OK_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_DERIVED_OK_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_DERIVED_OK_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_DERIVED_OK_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_1_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_1_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_1_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_1_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_1_3_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_1_3_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_1_3_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_1_3_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_2_3_1_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_2_3_1_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_2_3_1_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_2_3_1_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_5 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_2_3_2_5
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_3_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_3_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_3_3_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_3_3_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_3_3_1_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_3_3_1_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_5 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_ST_RESTRICTS_3_3_2_5
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_VALID_DEFAULT_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_VALID_DEFAULT_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_VALID_DEFAULT_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_VALID_DEFAULT_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_VALID_DEFAULT_2_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_VALID_DEFAULT_2_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_COS_VALID_DEFAULT_2_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_COS_VALID_DEFAULT_2_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_CT_PROPS_CORRECT_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_CT_PROPS_CORRECT_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_CT_PROPS_CORRECT_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_CT_PROPS_CORRECT_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_CT_PROPS_CORRECT_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_CT_PROPS_CORRECT_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_CT_PROPS_CORRECT_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_CT_PROPS_CORRECT_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_CT_PROPS_CORRECT_5 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_CT_PROPS_CORRECT_5
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_CVC_SIMPLE_TYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_CVC_SIMPLE_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_C_PROPS_CORRECT [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_C_PROPS_CORRECT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DEF_AND_PREFIX [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DEF_AND_PREFIX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_2_1_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_2_1_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_2_1_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_2_1_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_2_1_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_2_1_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_4_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_4_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_4_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_4_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_DERIVATION_OK_RESTRICTION_4_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_DERIVATION_OK_RESTRICTION_4_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ELEMFORMDEFAULT_VALUE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ELEMFORMDEFAULT_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ELEM_DEFAULT_FIXED [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ELEM_DEFAULT_FIXED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ELEM_NONAME_NOREF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ELEM_NONAME_NOREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_EXTENSION_NO_BASE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_EXTENSION_NO_BASE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_E_PROPS_CORRECT_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_E_PROPS_CORRECT_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_E_PROPS_CORRECT_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_E_PROPS_CORRECT_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_E_PROPS_CORRECT_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_E_PROPS_CORRECT_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_E_PROPS_CORRECT_5 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_E_PROPS_CORRECT_5
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_E_PROPS_CORRECT_6 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_E_PROPS_CORRECT_6
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_FACET_NO_VALUE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_FACET_NO_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_FAILED_BUILD_IMPORT [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_FAILED_BUILD_IMPORT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_FAILED_LOAD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_FAILED_LOAD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_FAILED_PARSE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_FAILED_PARSE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_GROUP_NONAME_NOREF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_GROUP_NONAME_NOREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_IMPORT_NAMESPACE_NOT_URI [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_IMPORT_NAMESPACE_NOT_URI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_IMPORT_REDEFINE_NSNAME [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_IMPORT_REDEFINE_NSNAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_IMPORT_SCHEMA_NOT_URI [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_IMPORT_SCHEMA_NOT_URI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INCLUDE_SCHEMA_NOT_URI [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INCLUDE_SCHEMA_NOT_URI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INCLUDE_SCHEMA_NO_URI [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INCLUDE_SCHEMA_NO_URI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INTERNAL [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INTERNAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INTERSECTION_NOT_EXPRESSIBLE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INTERSECTION_NOT_EXPRESSIBLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_ATTR_COMBINATION [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_ATTR_COMBINATION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_ATTR_INLINE_COMBINATION [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_ATTR_INLINE_COMBINATION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_ATTR_NAME [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_ATTR_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_ATTR_USE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_ATTR_USE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_BOOLEAN [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_BOOLEAN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_ENUM [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_ENUM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_FACET [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_FACET
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_FACET_VALUE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_FACET_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_MAXOCCURS [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_MAXOCCURS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_MINOCCURS [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_MINOCCURS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_REF_AND_SUBTYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_REF_AND_SUBTYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_INVALID_WHITE_SPACE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_INVALID_WHITE_SPACE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_MG_PROPS_CORRECT_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_MG_PROPS_CORRECT_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_MG_PROPS_CORRECT_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_MG_PROPS_CORRECT_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_MISSING_SIMPLETYPE_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_MISSING_SIMPLETYPE_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NOATTR_NOREF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NOATTR_NOREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NOROOT [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NOROOT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NOTATION_NO_NAME [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NOTATION_NO_NAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NOTHING_TO_PARSE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NOTHING_TO_PARSE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NOTYPE_NOREF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NOTYPE_NOREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NOT_DETERMINISTIC [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NOT_DETERMINISTIC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NOT_SCHEMA [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NOT_SCHEMA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NO_XMLNS [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NO_XMLNS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_NO_XSI [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_NO_XSI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_PREFIX_UNDEFINED [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_PREFIX_UNDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_P_PROPS_CORRECT_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_P_PROPS_CORRECT_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_P_PROPS_CORRECT_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_P_PROPS_CORRECT_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_P_PROPS_CORRECT_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_P_PROPS_CORRECT_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_RECURSIVE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_RECURSIVE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REDEFINED_ATTR [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REDEFINED_ATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REDEFINED_ATTRGROUP [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REDEFINED_ATTRGROUP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REDEFINED_ELEMENT [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REDEFINED_ELEMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REDEFINED_GROUP [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REDEFINED_GROUP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REDEFINED_NOTATION [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REDEFINED_NOTATION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REDEFINED_TYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REDEFINED_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REF_AND_CONTENT [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REF_AND_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REF_AND_SUBTYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REF_AND_SUBTYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_REGEXP_INVALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_REGEXP_INVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_RESTRICTION_NONAME_NOREF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_RESTRICTION_NONAME_NOREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_S4S_ATTR_INVALID_VALUE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_S4S_ATTR_INVALID_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_S4S_ATTR_MISSING [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_S4S_ATTR_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_S4S_ATTR_NOT_ALLOWED [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_S4S_ATTR_NOT_ALLOWED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_S4S_ELEM_MISSING [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_S4S_ELEM_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_S4S_ELEM_NOT_ALLOWED [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_S4S_ELEM_NOT_ALLOWED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SIMPLETYPE_NONAME [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SIMPLETYPE_NONAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ATTRIBUTE_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ATTRIBUTE_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ATTRIBUTE_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ATTRIBUTE_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ATTRIBUTE_3_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ATTRIBUTE_3_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ATTRIBUTE_3_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ATTRIBUTE_3_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ATTRIBUTE_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ATTRIBUTE_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ATTRIBUTE_GROUP_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ATTRIBUTE_GROUP_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ATTRIBUTE_GROUP_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ATTRIBUTE_GROUP_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ATTRIBUTE_GROUP_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ATTRIBUTE_GROUP_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_CT_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_CT_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ELEMENT_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ELEMENT_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ELEMENT_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ELEMENT_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ELEMENT_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ELEMENT_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_ELEMENT_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_ELEMENT_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_IMPORT [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_IMPORT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_IMPORT_1_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_IMPORT_1_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_IMPORT_1_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_IMPORT_1_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_IMPORT_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_IMPORT_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_IMPORT_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_IMPORT_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_IMPORT_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_IMPORT_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_IMPORT_3_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_IMPORT_3_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_IMPORT_3_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_IMPORT_3_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_INCLUDE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_INCLUDE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_LIST_ITEMTYPE_OR_SIMPLETYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_LIST_ITEMTYPE_OR_SIMPLETYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_REDEFINE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_REDEFINE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_RESOLVE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_RESOLVE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_RESTRICTION_BASE_OR_SIMPLETYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_RESTRICTION_BASE_OR_SIMPLETYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_SIMPLE_TYPE_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_SIMPLE_TYPE_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_SIMPLE_TYPE_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_SIMPLE_TYPE_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_SIMPLE_TYPE_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_SIMPLE_TYPE_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_SIMPLE_TYPE_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_SIMPLE_TYPE_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SRC_UNION_MEMBERTYPES_OR_SIMPLETYPES [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SRC_UNION_MEMBERTYPES_OR_SIMPLETYPES
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ST_PROPS_CORRECT_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ST_PROPS_CORRECT_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ST_PROPS_CORRECT_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ST_PROPS_CORRECT_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_ST_PROPS_CORRECT_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_ST_PROPS_CORRECT_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_SUPERNUMEROUS_LIST_ITEM_TYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_SUPERNUMEROUS_LIST_ITEM_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_TYPE_AND_SUBTYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_TYPE_AND_SUBTYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNION_NOT_EXPRESSIBLE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNION_NOT_EXPRESSIBLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_ALL_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_ALL_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_ANYATTRIBUTE_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_ANYATTRIBUTE_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_ATTRGRP_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_ATTRGRP_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_ATTRIBUTE_GROUP [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_ATTRIBUTE_GROUP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_ATTR_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_ATTR_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_BASE_TYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_BASE_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_CHOICE_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_CHOICE_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_COMPLEXCONTENT_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_COMPLEXCONTENT_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_COMPLEXTYPE_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_COMPLEXTYPE_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_ELEM_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_ELEM_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_EXTENSION_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_EXTENSION_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_FACET_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_FACET_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_FACET_TYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_FACET_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_GROUP_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_GROUP_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_IMPORT_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_IMPORT_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_INCLUDE_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_INCLUDE_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_LIST_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_LIST_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_MEMBER_TYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_MEMBER_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_NOTATION_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_NOTATION_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_PREFIX [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_PREFIX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_PROCESSCONTENT_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_PROCESSCONTENT_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_REF [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_REF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_RESTRICTION_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_RESTRICTION_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_SCHEMAS_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_SCHEMAS_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_SEQUENCE_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_SEQUENCE_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_SIMPLECONTENT_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_SIMPLECONTENT_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_SIMPLETYPE_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_SIMPLETYPE_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_TYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_UNKNOWN_UNION_CHILD [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_UNKNOWN_UNION_CHILD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_WARN_ATTR_POINTLESS_PROH [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_WARN_ATTR_POINTLESS_PROH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_WARN_ATTR_REDECL_PROH [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_WARN_ATTR_REDECL_PROH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_WARN_SKIP_SCHEMA [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_WARN_SKIP_SCHEMA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_WARN_UNLOCATED_SCHEMA [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_WARN_UNLOCATED_SCHEMA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAP_WILDCARD_INVALID_NS_MEMBER [
 	"This method was automatically generated"
 	^ XML_SCHEMAP_WILDCARD_INVALID_NS_MEMBER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMATRONV_ASSERT [
 	"This method was automatically generated"
 	^ XML_SCHEMATRONV_ASSERT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMATRONV_REPORT [
 	"This method was automatically generated"
 	^ XML_SCHEMATRONV_REPORT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_ATTRINVALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_ATTRINVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_ATTRUNKNOWN [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_ATTRUNKNOWN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CONSTRUCT [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CONSTRUCT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ATTRIBUTE_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ATTRIBUTE_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ATTRIBUTE_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ATTRIBUTE_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ATTRIBUTE_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ATTRIBUTE_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ATTRIBUTE_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ATTRIBUTE_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_AU [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_AU
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_2_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_2_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_2_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_2_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_3_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_3_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_3_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_3_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_3_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_3_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_4 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_5_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_5_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_COMPLEX_TYPE_5_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_COMPLEX_TYPE_5_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_DATATYPE_VALID_1_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_DATATYPE_VALID_1_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_DATATYPE_VALID_1_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_DATATYPE_VALID_1_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_DATATYPE_VALID_1_2_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_DATATYPE_VALID_1_2_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_3_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_3_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_3_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_3_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_3_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_3_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_4_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_4_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_4_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_4_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_4_3 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_4_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_5_1_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_5_1_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_5_1_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_5_1_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_5_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_5_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_5_2_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_5_2_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_5_2_2_2_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_5_2_2_2_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_5_2_2_2_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_5_2_2_2_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_6 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_6
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ELT_7 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ELT_7
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_ENUMERATION_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_ENUMERATION_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_FACET_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_FACET_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_FRACTIONDIGITS_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_FRACTIONDIGITS_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_IDC [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_IDC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_LENGTH_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_LENGTH_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_MAXEXCLUSIVE_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_MAXEXCLUSIVE_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_MAXINCLUSIVE_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_MAXINCLUSIVE_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_MAXLENGTH_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_MAXLENGTH_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_MINEXCLUSIVE_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_MINEXCLUSIVE_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_MININCLUSIVE_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_MININCLUSIVE_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_MINLENGTH_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_MINLENGTH_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_PATTERN_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_PATTERN_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_TOTALDIGITS_VALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_TOTALDIGITS_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_TYPE_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_TYPE_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_TYPE_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_TYPE_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_TYPE_3_1_1 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_TYPE_3_1_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_TYPE_3_1_2 [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_TYPE_3_1_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_CVC_WILDCARD [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_CVC_WILDCARD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_DOCUMENT_ELEMENT_MISSING [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_DOCUMENT_ELEMENT_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_ELEMCONT [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_ELEMCONT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_ELEMENT_CONTENT [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_ELEMENT_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_EXTRACONTENT [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_EXTRACONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_FACET [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_FACET
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_HAVEDEFAULT [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_HAVEDEFAULT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_INTERNAL [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_INTERNAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_INVALIDATTR [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_INVALIDATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_INVALIDELEM [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_INVALIDELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_ISABSTRACT [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_ISABSTRACT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_MISC [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_MISC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_MISSING [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_NOROLLBACK [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_NOROLLBACK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_NOROOT [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_NOROOT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_NOTDETERMINIST [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_NOTDETERMINIST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_NOTEMPTY [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_NOTEMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_NOTNILLABLE [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_NOTNILLABLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_NOTSIMPLE [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_NOTSIMPLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_NOTTOPLEVEL [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_NOTTOPLEVEL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_NOTYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_NOTYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_UNDECLAREDELEM [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_UNDECLAREDELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_VALUE [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_SCHEMAV_WRONGELEM [
 	"This method was automatically generated"
 	^ XML_SCHEMAV_WRONGELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_TREE_INVALID_DEC [
 	"This method was automatically generated"
 	^ XML_TREE_INVALID_DEC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_TREE_INVALID_HEX [
 	"This method was automatically generated"
 	^ XML_TREE_INVALID_HEX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_TREE_NOT_UTF8 [
 	"This method was automatically generated"
 	^ XML_TREE_NOT_UTF8
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_TREE_UNTERMINATED_ENTITY [
 	"This method was automatically generated"
 	^ XML_TREE_UNTERMINATED_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_CATALOG_PI [
 	"This method was automatically generated"
 	^ XML_WAR_CATALOG_PI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_ENCODING_MISMATCH [
 	"This method was automatically generated"
 	^ XML_WAR_ENCODING_MISMATCH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_ENTITY_REDEFINED [
 	"This method was automatically generated"
 	^ XML_WAR_ENTITY_REDEFINED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_LANG_VALUE [
 	"This method was automatically generated"
 	^ XML_WAR_LANG_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_NS_COLUMN [
 	"This method was automatically generated"
 	^ XML_WAR_NS_COLUMN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_NS_URI [
 	"This method was automatically generated"
 	^ XML_WAR_NS_URI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_NS_URI_RELATIVE [
 	"This method was automatically generated"
 	^ XML_WAR_NS_URI_RELATIVE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_SPACE_VALUE [
 	"This method was automatically generated"
 	^ XML_WAR_SPACE_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_UNDECLARED_ENTITY [
 	"This method was automatically generated"
 	^ XML_WAR_UNDECLARED_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_WAR_UNKNOWN_VERSION [
 	"This method was automatically generated"
 	^ XML_WAR_UNKNOWN_VERSION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_BUILD_FAILED [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_BUILD_FAILED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_DEPRECATED_NS [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_DEPRECATED_NS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_ENTITY_DEF_MISMATCH [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_ENTITY_DEF_MISMATCH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_FALLBACKS_IN_INCLUDE [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_FALLBACKS_IN_INCLUDE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_FALLBACK_NOT_IN_INCLUDE [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_FALLBACK_NOT_IN_INCLUDE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_FRAGMENT_ID [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_FRAGMENT_ID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_HREF_URI [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_HREF_URI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_INCLUDE_IN_INCLUDE [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_INCLUDE_IN_INCLUDE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_INVALID_CHAR [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_INVALID_CHAR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_MULTIPLE_ROOT [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_MULTIPLE_ROOT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_NO_FALLBACK [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_NO_FALLBACK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_NO_HREF [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_NO_HREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_PARSE_VALUE [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_PARSE_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_RECURSION [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_RECURSION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_TEXT_DOCUMENT [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_TEXT_DOCUMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_TEXT_FRAGMENT [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_TEXT_FRAGMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_UNKNOWN_ENCODING [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_UNKNOWN_ENCODING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_XPTR_FAILED [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_XPTR_FAILED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XINCLUDE_XPTR_RESULT [
 	"This method was automatically generated"
 	^ XML_XINCLUDE_XPTR_RESULT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_ENCODING_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_ENCODING_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_EXPRESSION_OK [
 	"This method was automatically generated"
 	^ XML_XPATH_EXPRESSION_OK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_EXPR_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_EXPR_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_INVALID_ARITY [
 	"This method was automatically generated"
 	^ XML_XPATH_INVALID_ARITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_INVALID_CHAR_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_INVALID_CHAR_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_INVALID_CTXT_POSITION [
 	"This method was automatically generated"
 	^ XML_XPATH_INVALID_CTXT_POSITION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_INVALID_CTXT_SIZE [
 	"This method was automatically generated"
 	^ XML_XPATH_INVALID_CTXT_SIZE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_INVALID_OPERAND [
 	"This method was automatically generated"
 	^ XML_XPATH_INVALID_OPERAND
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_INVALID_PREDICATE_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_INVALID_PREDICATE_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_INVALID_TYPE [
 	"This method was automatically generated"
 	^ XML_XPATH_INVALID_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_MEMORY_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_MEMORY_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_NUMBER_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_NUMBER_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_START_LITERAL_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_START_LITERAL_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_UNCLOSED_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_UNCLOSED_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_UNDEF_PREFIX_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_UNDEF_PREFIX_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_UNDEF_VARIABLE_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_UNDEF_VARIABLE_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_UNFINISHED_LITERAL_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_UNFINISHED_LITERAL_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_UNKNOWN_FUNC_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_UNKNOWN_FUNC_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPATH_VARIABLE_REF_ERROR [
 	"This method was automatically generated"
 	^ XML_XPATH_VARIABLE_REF_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPTR_CHILDSEQ_START [
 	"This method was automatically generated"
 	^ XML_XPTR_CHILDSEQ_START
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPTR_EVAL_FAILED [
 	"This method was automatically generated"
 	^ XML_XPTR_EVAL_FAILED
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPTR_EXTRA_OBJECTS [
 	"This method was automatically generated"
 	^ XML_XPTR_EXTRA_OBJECTS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPTR_RESOURCE_ERROR [
 	"This method was automatically generated"
 	^ XML_XPTR_RESOURCE_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPTR_SUB_RESOURCE_ERROR [
 	"This method was automatically generated"
 	^ XML_XPTR_SUB_RESOURCE_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPTR_SYNTAX_ERROR [
 	"This method was automatically generated"
 	^ XML_XPTR_SYNTAX_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserErrors class >> XML_XPTR_UNKNOWN_SCHEME [
 	"This method was automatically generated"
 	^ XML_XPTR_UNKNOWN_SCHEME
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlParserErrors class >> enumDecl [
 
 	^ #(

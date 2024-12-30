@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlCharEncoding',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlCharEncoding,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_CHAR_ENCODING_2022_JP',
 		'XML_CHAR_ENCODING_8859_1',
@@ -27,156 +27,154 @@ Class {
 		'XML_CHAR_ENCODING_UTF16LE',
 		'XML_CHAR_ENCODING_UTF8'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_2022_JP [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_2022_JP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_1 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_2 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_3 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_3
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_4 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_4
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_5 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_5
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_6 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_6
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_7 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_7
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_8 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_8
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_8859_9 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_8859_9
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_ASCII [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_ASCII
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_EBCDIC [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_EBCDIC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_ERROR [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_EUC_JP [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_EUC_JP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_NONE [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_NONE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_SHIFT_JIS [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_SHIFT_JIS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_UCS2 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_UCS2
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_UCS4BE [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_UCS4BE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_UCS4LE [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_UCS4LE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_UCS4_2143 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_UCS4_2143
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_UCS4_3412 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_UCS4_3412
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_UTF16BE [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_UTF16BE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_UTF16LE [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_UTF16LE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncoding class >> XML_CHAR_ENCODING_UTF8 [
 	"This method was automatically generated"
 	^ XML_CHAR_ENCODING_UTF8
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlCharEncoding class >> enumDecl [
 
 	^ #(

@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlAttributeType',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlAttributeType,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_ATTRIBUTE_CDATA',
 		'XML_ATTRIBUTE_ENTITIES',
@@ -13,72 +13,70 @@ Class {
 		'XML_ATTRIBUTE_NMTOKENS',
 		'XML_ATTRIBUTE_NOTATION'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_CDATA [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_CDATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_ENTITIES [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_ENTITIES
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_ENTITY [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_ENTITY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_ENUMERATION [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_ENUMERATION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_ID [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_ID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_IDREF [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_IDREF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_IDREFS [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_IDREFS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_NMTOKEN [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_NMTOKEN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_NMTOKENS [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_NMTOKENS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlAttributeType class >> XML_ATTRIBUTE_NOTATION [
 	"This method was automatically generated"
 	^ XML_ATTRIBUTE_NOTATION
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlAttributeType class >> enumDecl [
 
 	^ #(

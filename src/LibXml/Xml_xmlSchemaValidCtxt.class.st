@@ -1,12 +1,10 @@
 Class {
-	#name : 'Xml_xmlSchemaValidCtxt',
-	#superclass : 'XmlBaseObject',
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#name : #'Xml_xmlSchemaValidCtxt',
+	#superclass : #XmlBaseObject,
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'finalizing' }
+{ #category : #finalizing }
 Xml_xmlSchemaValidCtxt >> dispose [
 
 	self ffiCall: #(void _xmlSchemaValidCtxt_dispose(_xmlSchemaValidCtxt* self))

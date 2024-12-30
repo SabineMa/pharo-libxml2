@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlParserOption',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlParserOption,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_PARSE_BIG_LINES',
 		'XML_PARSE_COMPACT',
@@ -26,150 +26,148 @@ Class {
 		'XML_PARSE_SAX1',
 		'XML_PARSE_XINCLUDE'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_BIG_LINES [
 	"This method was automatically generated"
 	^ XML_PARSE_BIG_LINES
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_COMPACT [
 	"This method was automatically generated"
 	^ XML_PARSE_COMPACT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_DTDATTR [
 	"This method was automatically generated"
 	^ XML_PARSE_DTDATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_DTDLOAD [
 	"This method was automatically generated"
 	^ XML_PARSE_DTDLOAD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_DTDVALID [
 	"This method was automatically generated"
 	^ XML_PARSE_DTDVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_HUGE [
 	"This method was automatically generated"
 	^ XML_PARSE_HUGE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_IGNORE_ENC [
 	"This method was automatically generated"
 	^ XML_PARSE_IGNORE_ENC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NOBASEFIX [
 	"This method was automatically generated"
 	^ XML_PARSE_NOBASEFIX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NOBLANKS [
 	"This method was automatically generated"
 	^ XML_PARSE_NOBLANKS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NOCDATA [
 	"This method was automatically generated"
 	^ XML_PARSE_NOCDATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NODICT [
 	"This method was automatically generated"
 	^ XML_PARSE_NODICT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NOENT [
 	"This method was automatically generated"
 	^ XML_PARSE_NOENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NOERROR [
 	"This method was automatically generated"
 	^ XML_PARSE_NOERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NONET [
 	"This method was automatically generated"
 	^ XML_PARSE_NONET
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NOWARNING [
 	"This method was automatically generated"
 	^ XML_PARSE_NOWARNING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NOXINCNODE [
 	"This method was automatically generated"
 	^ XML_PARSE_NOXINCNODE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_NSCLEAN [
 	"This method was automatically generated"
 	^ XML_PARSE_NSCLEAN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_OLD10 [
 	"This method was automatically generated"
 	^ XML_PARSE_OLD10
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_OLDSAX [
 	"This method was automatically generated"
 	^ XML_PARSE_OLDSAX
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_PEDANTIC [
 	"This method was automatically generated"
 	^ XML_PARSE_PEDANTIC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_RECOVER [
 	"This method was automatically generated"
 	^ XML_PARSE_RECOVER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_SAX1 [
 	"This method was automatically generated"
 	^ XML_PARSE_SAX1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserOption class >> XML_PARSE_XINCLUDE [
 	"This method was automatically generated"
 	^ XML_PARSE_XINCLUDE
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlParserOption class >> enumDecl [
 
 	^ #(

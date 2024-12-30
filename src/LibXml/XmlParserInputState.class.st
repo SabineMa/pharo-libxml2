@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlParserInputState',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlParserInputState,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_PARSER_ATTRIBUTE_VALUE',
 		'XML_PARSER_CDATA_SECTION',
@@ -22,126 +22,124 @@ Class {
 		'XML_PARSER_SYSTEM_LITERAL',
 		'XML_PARSER_XML_DECL'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_ATTRIBUTE_VALUE [
 	"This method was automatically generated"
 	^ XML_PARSER_ATTRIBUTE_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_CDATA_SECTION [
 	"This method was automatically generated"
 	^ XML_PARSER_CDATA_SECTION
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_COMMENT [
 	"This method was automatically generated"
 	^ XML_PARSER_COMMENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_CONTENT [
 	"This method was automatically generated"
 	^ XML_PARSER_CONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_DTD [
 	"This method was automatically generated"
 	^ XML_PARSER_DTD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_END_TAG [
 	"This method was automatically generated"
 	^ XML_PARSER_END_TAG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_ENTITY_DECL [
 	"This method was automatically generated"
 	^ XML_PARSER_ENTITY_DECL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_ENTITY_VALUE [
 	"This method was automatically generated"
 	^ XML_PARSER_ENTITY_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_EOF [
 	"This method was automatically generated"
 	^ XML_PARSER_EOF
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_EPILOG [
 	"This method was automatically generated"
 	^ XML_PARSER_EPILOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_IGNORE [
 	"This method was automatically generated"
 	^ XML_PARSER_IGNORE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_MISC [
 	"This method was automatically generated"
 	^ XML_PARSER_MISC
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_PI [
 	"This method was automatically generated"
 	^ XML_PARSER_PI
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_PROLOG [
 	"This method was automatically generated"
 	^ XML_PARSER_PROLOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_PUBLIC_LITERAL [
 	"This method was automatically generated"
 	^ XML_PARSER_PUBLIC_LITERAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_START [
 	"This method was automatically generated"
 	^ XML_PARSER_START
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_START_TAG [
 	"This method was automatically generated"
 	^ XML_PARSER_START_TAG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_SYSTEM_LITERAL [
 	"This method was automatically generated"
 	^ XML_PARSER_SYSTEM_LITERAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserInputState class >> XML_PARSER_XML_DECL [
 	"This method was automatically generated"
 	^ XML_PARSER_XML_DECL
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlParserInputState class >> enumDecl [
 
 	^ #(

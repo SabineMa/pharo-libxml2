@@ -1,1 +1,1 @@
-Package { #name : 'LibXml' }
+Package { #name : #LibXml }

@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlCharEncError',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlCharEncError,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_ENC_ERR_INPUT',
 		'XML_ENC_ERR_INTERNAL',
@@ -9,48 +9,46 @@ Class {
 		'XML_ENC_ERR_SPACE',
 		'XML_ENC_ERR_SUCCESS'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncError class >> XML_ENC_ERR_INPUT [
 	"This method was automatically generated"
 	^ XML_ENC_ERR_INPUT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncError class >> XML_ENC_ERR_INTERNAL [
 	"This method was automatically generated"
 	^ XML_ENC_ERR_INTERNAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncError class >> XML_ENC_ERR_MEMORY [
 	"This method was automatically generated"
 	^ XML_ENC_ERR_MEMORY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncError class >> XML_ENC_ERR_PARTIAL [
 	"This method was automatically generated"
 	^ XML_ENC_ERR_PARTIAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncError class >> XML_ENC_ERR_SPACE [
 	"This method was automatically generated"
 	^ XML_ENC_ERR_SPACE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlCharEncError class >> XML_ENC_ERR_SUCCESS [
 	"This method was automatically generated"
 	^ XML_ENC_ERR_SUCCESS
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlCharEncError class >> enumDecl [
 
 	^ #(

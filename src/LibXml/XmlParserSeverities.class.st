@@ -1,42 +1,40 @@
 Class {
-	#name : 'XmlParserSeverities',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlParserSeverities,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_PARSER_SEVERITY_ERROR',
 		'XML_PARSER_SEVERITY_VALIDITY_ERROR',
 		'XML_PARSER_SEVERITY_VALIDITY_WARNING',
 		'XML_PARSER_SEVERITY_WARNING'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserSeverities class >> XML_PARSER_SEVERITY_ERROR [
 	"This method was automatically generated"
 	^ XML_PARSER_SEVERITY_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserSeverities class >> XML_PARSER_SEVERITY_VALIDITY_ERROR [
 	"This method was automatically generated"
 	^ XML_PARSER_SEVERITY_VALIDITY_ERROR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserSeverities class >> XML_PARSER_SEVERITY_VALIDITY_WARNING [
 	"This method was automatically generated"
 	^ XML_PARSER_SEVERITY_VALIDITY_WARNING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserSeverities class >> XML_PARSER_SEVERITY_WARNING [
 	"This method was automatically generated"
 	^ XML_PARSER_SEVERITY_WARNING
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlParserSeverities class >> enumDecl [
 
 	^ #(

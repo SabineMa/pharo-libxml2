@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlXmlTypedef',
-	#superclass : 'SharedPool',
+	#name : #XmlXmlTypedef,
+	#superclass : #SharedPool,
 	#classVars : [
 		'_xmlAttr',
 		'_xmlAttrHashBucket',
@@ -276,12 +276,10 @@ Class {
 		'xmlValidityErrorFunc',
 		'xmlValidityWarningFunc'
 	],
-	#category : 'LibXml-Library',
-	#package : 'LibXml',
-	#tag : 'Library'
+	#category : 'LibXml-Library'
 }
 
-{ #category : 'class initialization' }
+{ #category : #'class initialization' }
 XmlXmlTypedef class >> initialize [
 
 	uint16_t := #uint16.

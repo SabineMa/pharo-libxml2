@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlRelaxNGValidErr',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlRelaxNGValidErr,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_RELAXNG_ERR_ATTREXTRANS',
 		'XML_RELAXNG_ERR_ATTRNAME',
@@ -43,252 +43,250 @@ Class {
 		'XML_RELAXNG_ERR_VALUE',
 		'XML_RELAXNG_OK'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ATTREXTRANS [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ATTREXTRANS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ATTRNAME [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ATTRNAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ATTRNONS [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ATTRNONS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ATTRVALID [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ATTRVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ATTRWRONGNS [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ATTRWRONGNS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_CONTENTVALID [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_CONTENTVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_DATAELEM [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_DATAELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_DATATYPE [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_DATATYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_DUPID [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_DUPID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ELEMEXTRANS [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ELEMEXTRANS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ELEMNAME [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ELEMNAME
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ELEMNONS [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ELEMNONS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ELEMNOTEMPTY [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ELEMNOTEMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ELEMWRONG [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ELEMWRONG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_ELEMWRONGNS [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_ELEMWRONGNS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_EXTRACONTENT [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_EXTRACONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_EXTRADATA [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_EXTRADATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_INTEREXTRA [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_INTEREXTRA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_INTERNAL [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_INTERNAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_INTERNODATA [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_INTERNODATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_INTERSEQ [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_INTERSEQ
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_INVALIDATTR [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_INVALIDATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_LACKDATA [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_LACKDATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_LIST [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_LIST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_LISTELEM [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_LISTELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_LISTEMPTY [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_LISTEMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_LISTEXTRA [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_LISTEXTRA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_MEMORY [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_MEMORY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_NODEFINE [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_NODEFINE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_NOELEM [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_NOELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_NOGRAMMAR [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_NOGRAMMAR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_NOSTATE [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_NOSTATE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_NOTELEM [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_NOTELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_TEXTWRONG [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_TEXTWRONG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_TYPE [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_TYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_TYPECMP [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_TYPECMP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_TYPEVAL [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_TYPEVAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_VALELEM [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_VALELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_ERR_VALUE [
 	"This method was automatically generated"
 	^ XML_RELAXNG_ERR_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlRelaxNGValidErr class >> XML_RELAXNG_OK [
 	"This method was automatically generated"
 	^ XML_RELAXNG_OK
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlRelaxNGValidErr class >> enumDecl [
 
 	^ #(

@@ -1,42 +1,40 @@
 Class {
-	#name : 'XmlParserProperties',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlParserProperties,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_PARSER_DEFAULTATTRS',
 		'XML_PARSER_LOADDTD',
 		'XML_PARSER_SUBST_ENTITIES',
 		'XML_PARSER_VALIDATE'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserProperties class >> XML_PARSER_DEFAULTATTRS [
 	"This method was automatically generated"
 	^ XML_PARSER_DEFAULTATTRS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserProperties class >> XML_PARSER_LOADDTD [
 	"This method was automatically generated"
 	^ XML_PARSER_LOADDTD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserProperties class >> XML_PARSER_SUBST_ENTITIES [
 	"This method was automatically generated"
 	^ XML_PARSER_SUBST_ENTITIES
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlParserProperties class >> XML_PARSER_VALIDATE [
 	"This method was automatically generated"
 	^ XML_PARSER_VALIDATE
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlParserProperties class >> enumDecl [
 
 	^ #(

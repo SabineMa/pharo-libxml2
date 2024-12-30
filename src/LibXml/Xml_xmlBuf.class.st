@@ -1,12 +1,10 @@
 Class {
-	#name : 'Xml_xmlBuf',
-	#superclass : 'XmlBaseObject',
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#name : #'Xml_xmlBuf',
+	#superclass : #XmlBaseObject,
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'finalizing' }
+{ #category : #finalizing }
 Xml_xmlBuf >> dispose [
 
 	self ffiCall: #(void _xmlBuf_dispose(_xmlBuf* self))

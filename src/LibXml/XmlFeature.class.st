@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlFeature',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlFeature,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_WITH_AUTOMATA',
 		'XML_WITH_C14N',
@@ -37,216 +37,214 @@ Class {
 		'XML_WITH_XPTR',
 		'XML_WITH_ZLIB'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_AUTOMATA [
 	"This method was automatically generated"
 	^ XML_WITH_AUTOMATA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_C14N [
 	"This method was automatically generated"
 	^ XML_WITH_C14N
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_CATALOG [
 	"This method was automatically generated"
 	^ XML_WITH_CATALOG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_DEBUG [
 	"This method was automatically generated"
 	^ XML_WITH_DEBUG
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_DEBUG_MEM [
 	"This method was automatically generated"
 	^ XML_WITH_DEBUG_MEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_DEBUG_RUN [
 	"This method was automatically generated"
 	^ XML_WITH_DEBUG_RUN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_EXPR [
 	"This method was automatically generated"
 	^ XML_WITH_EXPR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_FTP [
 	"This method was automatically generated"
 	^ XML_WITH_FTP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_HTML [
 	"This method was automatically generated"
 	^ XML_WITH_HTML
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_HTTP [
 	"This method was automatically generated"
 	^ XML_WITH_HTTP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_ICONV [
 	"This method was automatically generated"
 	^ XML_WITH_ICONV
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_ICU [
 	"This method was automatically generated"
 	^ XML_WITH_ICU
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_ISO8859X [
 	"This method was automatically generated"
 	^ XML_WITH_ISO8859X
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_LEGACY [
 	"This method was automatically generated"
 	^ XML_WITH_LEGACY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_LZMA [
 	"This method was automatically generated"
 	^ XML_WITH_LZMA
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_MODULES [
 	"This method was automatically generated"
 	^ XML_WITH_MODULES
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_NONE [
 	"This method was automatically generated"
 	^ XML_WITH_NONE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_OUTPUT [
 	"This method was automatically generated"
 	^ XML_WITH_OUTPUT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_PATTERN [
 	"This method was automatically generated"
 	^ XML_WITH_PATTERN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_PUSH [
 	"This method was automatically generated"
 	^ XML_WITH_PUSH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_READER [
 	"This method was automatically generated"
 	^ XML_WITH_READER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_REGEXP [
 	"This method was automatically generated"
 	^ XML_WITH_REGEXP
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_SAX1 [
 	"This method was automatically generated"
 	^ XML_WITH_SAX1
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_SCHEMAS [
 	"This method was automatically generated"
 	^ XML_WITH_SCHEMAS
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_SCHEMATRON [
 	"This method was automatically generated"
 	^ XML_WITH_SCHEMATRON
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_THREAD [
 	"This method was automatically generated"
 	^ XML_WITH_THREAD
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_TREE [
 	"This method was automatically generated"
 	^ XML_WITH_TREE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_UNICODE [
 	"This method was automatically generated"
 	^ XML_WITH_UNICODE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_VALID [
 	"This method was automatically generated"
 	^ XML_WITH_VALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_WRITER [
 	"This method was automatically generated"
 	^ XML_WITH_WRITER
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_XINCLUDE [
 	"This method was automatically generated"
 	^ XML_WITH_XINCLUDE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_XPATH [
 	"This method was automatically generated"
 	^ XML_WITH_XPATH
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_XPTR [
 	"This method was automatically generated"
 	^ XML_WITH_XPTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlFeature class >> XML_WITH_ZLIB [
 	"This method was automatically generated"
 	^ XML_WITH_ZLIB
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlFeature class >> enumDecl [
 
 	^ #(

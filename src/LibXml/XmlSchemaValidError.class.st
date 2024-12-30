@@ -1,6 +1,6 @@
 Class {
-	#name : 'XmlSchemaValidError',
-	#superclass : 'XmlEnumeration',
+	#name : #XmlSchemaValidError,
+	#superclass : #XmlEnumeration,
 	#classVars : [
 		'XML_SCHEMAS_ERR_',
 		'XML_SCHEMAS_ERR_ATTRINVALID',
@@ -29,168 +29,166 @@ Class {
 		'XML_SCHEMAS_ERR_WRONGELEM',
 		'XML_SCHEMAS_ERR_XXX'
 	],
-	#category : 'LibXml-Base',
-	#package : 'LibXml',
-	#tag : 'Base'
+	#category : 'LibXml-Base'
 }
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_ [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_ATTRINVALID [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_ATTRINVALID
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_ATTRUNKNOWN [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_ATTRUNKNOWN
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_CONSTRUCT [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_CONSTRUCT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_ELEMCONT [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_ELEMCONT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_EXTRACONTENT [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_EXTRACONTENT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_FACET [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_FACET
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_HAVEDEFAULT [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_HAVEDEFAULT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_INTERNAL [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_INTERNAL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_INVALIDATTR [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_INVALIDATTR
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_INVALIDELEM [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_INVALIDELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_ISABSTRACT [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_ISABSTRACT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_MISSING [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_MISSING
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_NOROLLBACK [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_NOROLLBACK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_NOROOT [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_NOROOT
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_NOTDETERMINIST [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_NOTDETERMINIST
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_NOTEMPTY [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_NOTEMPTY
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_NOTNILLABLE [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_NOTNILLABLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_NOTSIMPLE [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_NOTSIMPLE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_NOTTOPLEVEL [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_NOTTOPLEVEL
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_NOTYPE [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_NOTYPE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_OK [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_OK
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_UNDECLAREDELEM [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_UNDECLAREDELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_VALUE [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_VALUE
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_WRONGELEM [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_WRONGELEM
 ]
 
-{ #category : 'accessing enum' }
+{ #category : #'accessing enum' }
 XmlSchemaValidError class >> XML_SCHEMAS_ERR_XXX [
 	"This method was automatically generated"
 	^ XML_SCHEMAS_ERR_XXX
 ]
 
-{ #category : 'enum declaration' }
+{ #category : #'enum declaration' }
 XmlSchemaValidError class >> enumDecl [
 
 	^ #(
