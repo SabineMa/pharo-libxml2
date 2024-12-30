@@ -1,1 +1,1 @@
-Package { #name : 'BaselineOfLibXml' }
+Package { #name : #BaselineOfLibXml }
