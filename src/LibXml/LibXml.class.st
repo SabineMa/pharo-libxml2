@@ -273,7 +273,7 @@ LibXml >> unix64LibraryName [
 { #category : #'accessing - platform' }
 LibXml >> win32LibraryName [
 
-	^ FFIWindowsLibraryFinder findLibrary: 'libxml2.dll'
+	^ FFIWindowsLibraryFinder findLibrary: 'libxml2-2.dll'
 ]
 
 { #category : #public }
